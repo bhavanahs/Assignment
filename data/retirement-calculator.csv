@@ -1,0 +1,2 @@
+currentAge,retirementAge,annualIncome,spouseIncome,currentSavings,annualSavingsPercent,savingsIncreasePercent,socialSecurity,maritalStatus,socialSecurityOverride,additionalRetirementIncome,retirementYears,inflationEnabled,inflationRate,replacementRate,preRetirementReturn,postRetirementReturn
+35,67,85000,60000,125000,12,3,Yes,Married,2500,18000,25,Yes,2.5,82,6,4.5

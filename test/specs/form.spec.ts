@@ -1,7 +1,8 @@
+import {test, expect} from '@playwright/test';
 import FormPage from '../pageobjects/form.page.js'
 
-describe('auth form', () => {
-    it('should deny access with wrong creds', async () => {
+test.describe('auth form ', () => {
+    test('should deny access with wrong creds@x', async () => {
         await FormPage.open()
         await FormPage.username.setValue('foo')
         await FormPage.password.setValue('bar')
@@ -13,7 +14,7 @@ describe('auth form', () => {
         )
     })
 
-    it('should allow access with correct creds', async () => {
+    test('should allow access with correct creds@x', async () => {
         await FormPage.open()
         await FormPage.username.setValue('tomsmith')
         await FormPage.password.setValue('SuperSecretPassword!')

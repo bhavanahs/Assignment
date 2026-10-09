@@ -1,7 +1,8 @@
+import {test, expect} from '@playwright/test';
 import DynamicPage from '../pageobjects/dynamic.page.js'
 
-describe('dynamic loading', function () {
-    it('should be an button on the page', async () => {
+test.describe('dynamic loading ', function () {
+    test('should be an button on the page@x', async () => {
         await DynamicPage.open()
         await expect(DynamicPage.loadedPage).not.toBePresent()
 
