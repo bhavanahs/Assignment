@@ -16,7 +16,7 @@ jobs:
           run: npm install
 
         - name: 🧪 Test
-          run: npm run test:local
+          run: npm run test:retirement to run the test
 
         - name: 📦 Upload Logs
           uses: actions/upload-artifact@v4

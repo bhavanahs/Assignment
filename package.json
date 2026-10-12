@@ -23,7 +23,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "test": "npm run typecheck && npm run lint && npm run test:retirement to run the test",
+    "test": "npm run typecheck && npm run lint && npm run test:local",
     "typecheck": "tsc --noEmit",
     "test:local": "wdio run wdio.local.conf.ts",
     "test:playwright": "playwright test",
