@@ -20,11 +20,11 @@ export const config: WebdriverIO.Config = {
                 args: ['--headless=new', '--disable-gpu']
             }
         },
-        /*{
+        {
             browserName: 'firefox',
             'moz:firefoxOptions': {
                 args: ['-headless']
             }
-        }*/
+        }
     ]
 };
