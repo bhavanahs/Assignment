@@ -1,18 +1,18 @@
-import Page from './page.js'
+/*import Page from './page.js'
 
-class CheckboxPage extends Page {
+class CheckboxPage extends Page {*/
     /**
      * define elements
      */
-    get lastCheckbox () { return $('#checkboxes input:last-Child') }
+    /*get lastCheckbox () { return $('#checkboxes input:last-Child') }
     get firstCheckbox () { return $('#checkboxes input:first-Child') }
-
+*/
     /**
      * define or overwrite page methods
      */
-    open () {
+    /*open () {
         return super.open('checkboxes')
     }
 }
 
-export default new CheckboxPage()
+export default new CheckboxPage()*/

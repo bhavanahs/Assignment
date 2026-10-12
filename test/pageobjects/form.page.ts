@@ -1,10 +1,10 @@
-import Page from './page.js'
+/*import Page from './page.js'
 
 class FormPage extends Page {
     /**
      * define elements
      */
-    get username () { return $('#username') }
+    /*get username () { return $('#username') }
     get password () { return $('#password') }
     get submitButton () { return $('#login button[type=submit]') }
     get flash () { return $('#flash') }
@@ -12,7 +12,7 @@ class FormPage extends Page {
     /**
      * define or overwrite page methods
      */
-    open () {
+    /*open () {
         return super.open('login')
     }
 
@@ -21,4 +21,4 @@ class FormPage extends Page {
     }
 }
 
-export default new FormPage()
+export default new FormPage()*/
