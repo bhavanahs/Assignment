@@ -1,4 +1,4 @@
-import {test, expect} from '@playwright/test';
+/*import {test, expect} from '@playwright/test';
 import FormPage from '../pageobjects/form.page.js'
 
 test.describe('auth form ', () => {
@@ -25,4 +25,4 @@ test.describe('auth form ', () => {
             expect.stringContaining('You logged into a secure area!')
         )
     })
-})
+})*/

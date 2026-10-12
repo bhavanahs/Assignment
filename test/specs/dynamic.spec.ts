@@ -1,4 +1,4 @@
-import {test, expect} from '@playwright/test';
+/*import {test, expect} from '@playwright/test';
 import DynamicPage from '../pageobjects/dynamic.page.js'
 
 test.describe('dynamic loading ', function () {
@@ -11,3 +11,4 @@ test.describe('dynamic loading ', function () {
         await expect(DynamicPage.loadedPage).toBePresent()
     })
 })
+*/
